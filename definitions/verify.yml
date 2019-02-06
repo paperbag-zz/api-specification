@@ -737,6 +737,7 @@ components:
     apiKey:
       type: apiKey
       name: api_key
+      required: true
       in: query
       description: >-
         You can find your API key in your Nexmo account [developer
@@ -744,6 +745,7 @@ components:
     apiSecret:
       type: apiKey
       name: api_secret
+      required: true
       in: query
       description: >-
         You can find your API secret in your Nexmo account [developer
